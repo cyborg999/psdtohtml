@@ -1,0 +1,32 @@
+.cover {
+	background: #011823;
+	background-image: url(../img/cover.png);
+	background-size: cover;
+	height: 6in;
+}
+
+.cover .navigation {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.cover .navigation li {
+	list-style-type: none;
+	display: inline;
+}
+.cover .navigation li a {
+	color: white;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	border-radius: 15px;
+	font-size: 15px;
+}
+.cover .navigation li a.logo {
+	margin: 0px 30px;
+}
+.cover .navigation li.active a {
+	background: #ff0045;
+	font-weight: bold;
+}
+
