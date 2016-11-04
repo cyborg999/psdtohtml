@@ -1,14 +1,24 @@
+@font-face {
+	font-family: "f1";
+	src: url(../fonts/open-sans/OpenSans-Regular.ttf);
+}
+
+* {
+	font-family: "f1";
+}
+
 .cover {
 	background: #011823;
 	background-image: url(../img/cover.png);
 	background-size: cover;
-	height: 6in;
+	height: 440px;
 }
 
 .cover .navigation {
-	display: block;
-	width: 80%;
+	padding: 0px;
+	width: 100%;
 	margin: 0 auto;
+	clear: both;
 	text-align: center;
 }
 .cover .navigation li {
@@ -29,4 +39,78 @@
 	background: #ff0045;
 	font-weight: bold;
 }
+.cover .navigation li a.phone {
+	border: 1px solid white;
+}
+.cover h2 {
+	padding: 0px;
+	margin: 1px auto;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
 
+	height: 50px;
+	font-size: 60px;
+	font-weight: 600;
+	border-bottom: 5px solid #ff0045;
+	line-height: 0px;
+}
+.comments {
+	height: 325px;
+	background: #ab1943;
+	background-image: url(../img/key.png);
+	background-repeat: no-repeat;
+	background-position: -198px -107px;
+}
+.comments .search-bar {
+	background-image: url(../img/light.png);
+	background-size: 93% 114%;
+	position: relative;
+	height: 100%;
+	width: 940px;
+	padding: 0px;
+	margin: 0 auto;
+}
+.comments .search-bar .search-form {
+	background: white;
+	position: absolute;
+	top: -44px;
+	left: 0px;
+	border-radius: 5px;
+	height: 78px;
+	width: 100%;
+	padding: 5px;
+}
+.comments .search-bar .search-form .first {
+	padding: 0px;
+	margin: 28px 15px;
+	float: left;
+}
+.comments .search-bar .search-form .kdci {
+	float: left;
+	text-align: center;
+	margin-top: 18px;
+	width: 85%;
+}
+.comments .search-bar .search-form .kdci h1 {
+	margin: auto;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.comments .search-bar .search-form .last {
+	float: right;
+	margin: 28px 15px;
+}
+.comments .search-bar .comment {
+	position: absolute;
+	top: 100px;
+	padding: 15px;
+}
+.comments .search-bar .comment p {
+	color: white;
+	font-size: 16px;
+	letter-spacing: 1.2;
+}
+/*todo: add blur sa pink*/
